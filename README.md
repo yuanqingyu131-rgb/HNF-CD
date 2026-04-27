@@ -4,6 +4,18 @@ HNF-CD is a public benchmark dataset for academic research on high-resolution fo
 
 This dataset is constructed to support the evaluation of forest change detection methods under complex multi-temporal forestry scenarios, including both same-season and cross-season image pairs. The dataset provides bi-temporal optical image pairs, binary change masks, and predefined training/testing splits.
 
+## Download
+
+The complete HNF-CD dataset can be downloaded from the release page:
+
+[Download HNF-CD.zip from GitHub Releases](https://github.com/yuanqingyu131-rgb/HNF-CD/releases/download/v1.0.0/HNF-CD.zip)
+
+Alternatively, please go to:
+
+`Releases` → `HNF-CD v1.0.0` → `Assets` → `HNF-CD.zip`
+
+Please note that the green `Code` → `Download ZIP` button only downloads the repository files, such as the README, and does not download the full dataset archive.
+
 ## Dataset Description
 
 HNF-CD focuses on binary forest change detection. In this dataset, changed regions correspond to substantive cross-category semantic conversions among forest-related land-cover categories, while phenological variation, illumination differences, seasonal appearance changes, and other non-semantic variations are retained as unchanged hard negative samples.
